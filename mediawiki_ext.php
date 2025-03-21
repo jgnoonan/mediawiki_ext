@@ -7,7 +7,7 @@
  *
  * @file
  * @ingroup Extensions
- * @author Claude
+ * @author Joseph G. Noonan
  * @license GPL-2.0-or-later
  */
 
@@ -20,7 +20,7 @@ $wgExtensionCredits['parserhook'][] = [
     'path' => __FILE__,
     'name' => 'ExternalImages',
     'version' => '1.0.0',
-    'author' => '[Your Name]',
+    'author' => 'Joseph G. Noonan',
     'url' => 'https://www.mediawiki.org/wiki/Extension:ExternalImages',
     'descriptionmsg' => 'externalimages-desc',
     'license-name' => 'GPL-2.0-or-later',

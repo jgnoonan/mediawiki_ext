@@ -3,6 +3,7 @@
  * Hooks for External Images extension
  *
  * @file
+ * @author Joseph G Noonan
  * @ingroup Extensions
  */
 

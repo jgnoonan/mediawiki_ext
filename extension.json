@@ -1,0 +1,25 @@
+{
+	"name": "ExternalImages",
+	"version": "1.0.0",
+	"author": [
+		"[Joseph G Noonan]"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:ExternalImages",
+	"descriptionmsg": "externalimages-desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "parserhook",
+	"MessagesDirs": {
+		"ExternalImages": [
+			"i18n"
+		]
+	},
+	"AutoloadClasses": {
+		"ExternalImagesHooks": "ExternalImages.hooks.php"
+	},
+	"Hooks": {
+		"ParserFirstCallInit": [
+			"ExternalImagesHooks::onParserFirstCallInit"
+		]
+	},
+	"manifest_version": 2
+}
